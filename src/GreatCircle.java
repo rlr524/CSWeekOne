@@ -12,7 +12,7 @@ public class GreatCircle {
         double xRadians = Math.toRadians(x2 - x1);
         double yRadians = Math.toRadians(y2 - y1);
 
-        double radiusOfEarth = 6371;
+        double radiusOfEarth = 6371.0;
 
         double x1Radians = Math.toRadians(x1);
         double x2Radians = Math.toRadians(x2);
